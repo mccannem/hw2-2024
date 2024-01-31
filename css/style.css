@@ -46,14 +46,18 @@ div {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border: 0px 0px 2px 5px;
+    border-style: solid;
+    border-bottom: 2px;
+    border-left: 5px;
 }
 
 .blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border: 2px 5px 0px 0px solid;
+    border-style: solid;
+    border-top: 2px;
+    border-right: 5px;
 }
 
 div.blue h2, p {
@@ -64,7 +68,9 @@ div.blue h2, p {
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border: 0px 0px 2px 5px solid;
+    border-style: solid;
+    border-bottom: 2px;
+    border-left: 5px;
 }
 
 div.yellow p {
@@ -75,7 +81,9 @@ div.yellow p {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border: 2px 5px 0px 0px solid;
+    border-style: solid;
+    border-top: 2px;
+    border-right: 5px;
 }
 
 footer {
@@ -87,5 +95,5 @@ footer {
 footer p {
     font-size: 20px;
     text-align: right;
-    padding: 15px 15px 15px 0px solid;
+    padding: 15px 15px 15px 0px;
 }
